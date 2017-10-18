@@ -17,7 +17,7 @@ print(url)
 for year in range(2017, 2018):
     for month in range(1, 13):
         for item in pdapi.pd_fetch_tourspot_visitor(
-                district1='경상남도',
+                district1='서울특별시',
                 year=year,
                 month=month):
             print(item)
